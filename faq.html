@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simplay FAQ</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: #0a0a0a;
+            color: #e5e5e5;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+        .logo {
+            font-size: 48px;
+            margin-bottom: 8px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 4px;
+        }
+        .subtitle {
+            color: #888;
+            font-size: 16px;
+            margin-bottom: 48px;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #fff;
+            margin: 36px 0 16px;
+        }
+        p, li {
+            color: #aaa;
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            padding-left: 20px;
+            position: relative;
+        }
+        ul li::before {
+            content: "›";
+            position: absolute;
+            left: 0;
+            color: #555;
+        }
+        .faq-item {
+            border-top: 1px solid #1a1a1a;
+            padding: 20px 0;
+        }
+        .faq-item h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+        .faq-item p {
+            margin-bottom: 0;
+        }
+        .contact-box {
+            background: #111;
+            border: 1px solid #222;
+            border-radius: 12px;
+            padding: 24px;
+            margin-top: 40px;
+            text-align: center;
+        }
+        .contact-box p {
+            color: #888;
+            margin-bottom: 16px;
+        }
+        .contact-box a {
+            display: inline-block;
+            background: #2563eb;
+            color: #fff;
+            text-decoration: none;
+            padding: 12px 32px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 15px;
+        }
+        .contact-box a:hover {
+            background: #1d4ed8;
+        }
+        .footer {
+            margin-top: 60px;
+            padding-top: 24px;
+            border-top: 1px solid #1a1a1a;
+            text-align: center;
+            color: #444;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">&#x25B6;&#xFE0F;</div>
+        <h1>Simplay</h1>
+        <p class="subtitle">Support & Help</p>
+
+        <h2>About</h2>
+        <p>Simplay Plus is an IPTV streaming app built for Apple TV. It supports live TV, movies, and series through the Xtream Codes API with features like EPG, favorites, continue watching, and multi-server management.</p>
+
+        <h2>Requirements</h2>
+        <ul>
+            <li>Apple TV with tvOS 17.0 or later</li>
+            <li>An active Xtream Codes IPTV subscription from your provider</li>
+            <li>Internet connection</li>
+        </ul>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <h3>How do I add my IPTV server?</h3>
+            <p>On first launch, you'll be guided through adding your server. You'll need your server URL, username, and password from your IPTV provider. You can also paste a full portal URL and it will be parsed automatically.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>A channel isn't playing. What should I do?</h3>
+            <p>Some channels may be temporarily offline on your provider's side. Try a different channel first. If the issue persists, go to Settings and tap "Refresh All Content" to reload the channel list. The app will also automatically retry with VLC if the default player fails.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Can I use multiple IPTV servers?</h3>
+            <p>Yes. Go to Settings > Manage Servers to add additional servers. You can switch between them at any time. Each server keeps its own favorites and watch history.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I change subtitle or audio language?</h3>
+            <p>During playback, press the Select button to open the overlay, then select the subtitle or audio icon. You can also set default languages in Settings > Playback Defaults.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I add channels to favorites?</h3>
+            <p>In the Live TV tab, long-press on any channel tile to add it to your favorites. In the player, long-press Select on a channel in the sidebar. You can also reorder favorites from the Favorites category.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I restore my purchase on a new device?</h3>
+            <p>Make sure you're signed in with the same Apple ID. Open the app, go to any paywall screen, and tap "Restore Purchases".</p>
+        </div>
+
+        <div class="contact-box">
+            <p>Couldn't find what you're looking for?</p>
+            <a href="mailto:support@blv.sh">Contact Support</a>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 Simplay Plus. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
